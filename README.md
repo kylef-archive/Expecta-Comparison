@@ -13,7 +13,7 @@ We add the following matchers:
 These provide easier to understand test failures showing the actual difference
 between the actual and expected result.
 
-### Example
+### Example Test Output
 
 #### Before
 
