@@ -6,4 +6,14 @@
 //  Copyright (c) 2014 Cocode. All rights reserved.
 //
 
+#import "EXPMatchers+equalArray.h"
 #import "EXPMatchers+equalDictionary.h"
+
+@interface ExpectaComparisonDiff : NSObject
+
+@property (nonatomic, strong, readonly) NSArray *additions;
+@property (nonatomic, strong, readonly) NSArray *removals;
+
+- (instancetype)initWithActualObjects:(NSArray *)actualObject expectedObjects:(NSArray *)expectedObjects;
+
+@end

@@ -10,8 +10,9 @@
 		2C126141FE5F4B92A8847B36 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD5C0FB4E9848A18D56028D /* libPods.a */; };
 		77694E14194CD22500E79198 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77694E13194CD22500E79198 /* XCTest.framework */; };
 		77694E1A194CD22600E79198 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77694E18194CD22600E79198 /* InfoPlist.strings */; };
-		776F0FEC194CE16500B774E5 /* ExpectaDictionaryComparisonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 776F0FEB194CE16500B774E5 /* ExpectaDictionaryComparisonTests.m */; };
 		776F0FEE194CE80400B774E5 /* ExpectaComparisonTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 776F0FED194CE80400B774E5 /* ExpectaComparisonTestCase.m */; };
+		776F0FF1194CF36D00B774E5 /* ExpectaDictionaryComparisonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 776F0FF0194CF36D00B774E5 /* ExpectaDictionaryComparisonTests.m */; };
+		776F0FF3194CF3F000B774E5 /* ExpectaArrayComparisonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 776F0FF2194CF3F000B774E5 /* ExpectaArrayComparisonTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,9 +21,10 @@
 		77694E17194CD22500E79198 /* ExpectaComparisonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExpectaComparisonTests-Info.plist"; sourceTree = "<group>"; };
 		77694E19194CD22600E79198 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		77694E1D194CD22600E79198 /* ExpectaComparisonTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExpectaComparisonTests-Prefix.pch"; sourceTree = "<group>"; };
-		776F0FEB194CE16500B774E5 /* ExpectaDictionaryComparisonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpectaDictionaryComparisonTests.m; path = ../ExpectaDictionaryComparisonTests.m; sourceTree = "<group>"; };
 		776F0FED194CE80400B774E5 /* ExpectaComparisonTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpectaComparisonTestCase.m; sourceTree = SOURCE_ROOT; };
 		776F0FEF194CE81800B774E5 /* ExpectaComparisonTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpectaComparisonTestCase.h; sourceTree = SOURCE_ROOT; };
+		776F0FF0194CF36D00B774E5 /* ExpectaDictionaryComparisonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpectaDictionaryComparisonTests.m; path = ../ExpectaDictionaryComparisonTests.m; sourceTree = "<group>"; };
+		776F0FF2194CF3F000B774E5 /* ExpectaArrayComparisonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpectaArrayComparisonTests.m; path = ../ExpectaArrayComparisonTests.m; sourceTree = "<group>"; };
 		B0082F7B91CF46608EE22EDE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		BFD5C0FB4E9848A18D56028D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -72,7 +74,8 @@
 			children = (
 				776F0FEF194CE81800B774E5 /* ExpectaComparisonTestCase.h */,
 				776F0FED194CE80400B774E5 /* ExpectaComparisonTestCase.m */,
-				776F0FEB194CE16500B774E5 /* ExpectaDictionaryComparisonTests.m */,
+				776F0FF2194CF3F000B774E5 /* ExpectaArrayComparisonTests.m */,
+				776F0FF0194CF36D00B774E5 /* ExpectaDictionaryComparisonTests.m */,
 				77694E16194CD22500E79198 /* Supporting Files */,
 			);
 			path = ExpectaComparisonTests;
@@ -184,8 +187,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				776F0FEC194CE16500B774E5 /* ExpectaDictionaryComparisonTests.m in Sources */,
 				776F0FEE194CE80400B774E5 /* ExpectaComparisonTestCase.m in Sources */,
+				776F0FF3194CF3F000B774E5 /* ExpectaArrayComparisonTests.m in Sources */,
+				776F0FF1194CF36D00B774E5 /* ExpectaDictionaryComparisonTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
