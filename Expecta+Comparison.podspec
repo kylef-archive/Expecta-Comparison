@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.license = { :type => "BSD", :file => "LICENSE" }
   spec.author = { "Kyle Fuller" => "inbox@kylefuller.co.uk" }
   spec.social_media_url = "https://twitter.com/kylefuller"
-  spec.source = { :git => "https://github.com/kylef/Expecta+Comparison.git", :tag => spec.version }
+  spec.source = { :git => "https://github.com/kylef/Expecta-Comparison.git", :tag => spec.version }
   spec.source_files  = "ExpectaComparison/*.{h,m}"
   spec.requires_arc = true
   spec.dependency 'Expecta'
