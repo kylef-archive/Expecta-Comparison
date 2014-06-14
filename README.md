@@ -1,10 +1,31 @@
 Expecta+Comparison
 ==================
 
-The missing comparators for Expecta. Provides expecta matchers to compare if
-two collections are identical.
+The missing comparators for Expecta. Provides expecta matchers to compare
+collections in your tests.
 
+We add the following matchers:
+
+- `equalArray`
 - `equalDictionary`
+- `equalSet`
+
+These provide easier to understand test failures showing the actual difference
+between the actual and expected result.
+
+### Example
+
+#### Before
+
+```
+expected: {Kyle = Facebook; Ash = Artsy; Orta = Artsy; Dennis = Cocode;}, got: {Kyle = Facebook; Dennis = Cocode;}
+```
+
+#### After
+
+```
+Dictionary is missing keys: Ash, Orta
+```
 
 ### Installation
 
@@ -27,6 +48,12 @@ describe(@"a person", ^{
     NSDictionary *actualDictionary = @{@"key": @"value", @"foo": @"bar"};
 
     expect(dictionary).to.equalDictionary(actualDictionary);
+  });
+
+  it(@"should have a list of companies they worked for", ^{
+    NSArray *companies = @[@"Cocode", @"Facebook"];
+
+    expect(person.companies).to.equalArray(companies);
   });
 });
 ```
