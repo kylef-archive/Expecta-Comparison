@@ -13,6 +13,7 @@
 		776F0FEE194CE80400B774E5 /* ExpectaComparisonTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 776F0FED194CE80400B774E5 /* ExpectaComparisonTestCase.m */; };
 		776F0FF1194CF36D00B774E5 /* ExpectaDictionaryComparisonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 776F0FF0194CF36D00B774E5 /* ExpectaDictionaryComparisonTests.m */; };
 		776F0FF3194CF3F000B774E5 /* ExpectaArrayComparisonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 776F0FF2194CF3F000B774E5 /* ExpectaArrayComparisonTests.m */; };
+		776F0FF5194CF80F00B774E5 /* ExpectaSetComparisonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 776F0FF4194CF80F00B774E5 /* ExpectaSetComparisonTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		776F0FEF194CE81800B774E5 /* ExpectaComparisonTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpectaComparisonTestCase.h; sourceTree = SOURCE_ROOT; };
 		776F0FF0194CF36D00B774E5 /* ExpectaDictionaryComparisonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpectaDictionaryComparisonTests.m; path = ../ExpectaDictionaryComparisonTests.m; sourceTree = "<group>"; };
 		776F0FF2194CF3F000B774E5 /* ExpectaArrayComparisonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpectaArrayComparisonTests.m; path = ../ExpectaArrayComparisonTests.m; sourceTree = "<group>"; };
+		776F0FF4194CF80F00B774E5 /* ExpectaSetComparisonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpectaSetComparisonTests.m; sourceTree = SOURCE_ROOT; };
 		B0082F7B91CF46608EE22EDE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		BFD5C0FB4E9848A18D56028D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -76,6 +78,7 @@
 				776F0FED194CE80400B774E5 /* ExpectaComparisonTestCase.m */,
 				776F0FF2194CF3F000B774E5 /* ExpectaArrayComparisonTests.m */,
 				776F0FF0194CF36D00B774E5 /* ExpectaDictionaryComparisonTests.m */,
+				776F0FF4194CF80F00B774E5 /* ExpectaSetComparisonTests.m */,
 				77694E16194CD22500E79198 /* Supporting Files */,
 			);
 			path = ExpectaComparisonTests;
@@ -189,6 +192,7 @@
 			files = (
 				776F0FEE194CE80400B774E5 /* ExpectaComparisonTestCase.m in Sources */,
 				776F0FF3194CF3F000B774E5 /* ExpectaArrayComparisonTests.m in Sources */,
+				776F0FF5194CF80F00B774E5 /* ExpectaSetComparisonTests.m in Sources */,
 				776F0FF1194CF36D00B774E5 /* ExpectaDictionaryComparisonTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

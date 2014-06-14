@@ -8,6 +8,7 @@
 
 #import "EXPMatchers+equalArray.h"
 #import "EXPMatchers+equalDictionary.h"
+#import "EXPMatchers+equalSet.h"
 
 @interface ExpectaComparisonDiff : NSObject
 
