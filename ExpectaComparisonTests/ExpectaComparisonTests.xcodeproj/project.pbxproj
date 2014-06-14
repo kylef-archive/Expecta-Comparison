@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C126141FE5F4B92A8847B36 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD5C0FB4E9848A18D56028D /* libPods.a */; };
+		77694E14194CD22500E79198 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77694E13194CD22500E79198 /* XCTest.framework */; };
+		77694E1A194CD22600E79198 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77694E18194CD22600E79198 /* InfoPlist.strings */; };
+		776F0FEC194CE16500B774E5 /* ExpectaDictionaryComparisonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 776F0FEB194CE16500B774E5 /* ExpectaDictionaryComparisonTests.m */; };
+		776F0FEE194CE80400B774E5 /* ExpectaComparisonTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 776F0FED194CE80400B774E5 /* ExpectaComparisonTestCase.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77694E10194CD22500E79198 /* ExpectaComparisonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpectaComparisonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77694E13194CD22500E79198 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		77694E17194CD22500E79198 /* ExpectaComparisonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExpectaComparisonTests-Info.plist"; sourceTree = "<group>"; };
+		77694E19194CD22600E79198 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77694E1D194CD22600E79198 /* ExpectaComparisonTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExpectaComparisonTests-Prefix.pch"; sourceTree = "<group>"; };
+		776F0FEB194CE16500B774E5 /* ExpectaDictionaryComparisonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpectaDictionaryComparisonTests.m; path = ../ExpectaDictionaryComparisonTests.m; sourceTree = "<group>"; };
+		776F0FED194CE80400B774E5 /* ExpectaComparisonTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpectaComparisonTestCase.m; sourceTree = SOURCE_ROOT; };
+		776F0FEF194CE81800B774E5 /* ExpectaComparisonTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpectaComparisonTestCase.h; sourceTree = SOURCE_ROOT; };
+		B0082F7B91CF46608EE22EDE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		BFD5C0FB4E9848A18D56028D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77694E0D194CD22500E79198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77694E14194CD22500E79198 /* XCTest.framework in Frameworks */,
+				2C126141FE5F4B92A8847B36 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77694E05194CD10800E79198 = {
+			isa = PBXGroup;
+			children = (
+				77694E15194CD22500E79198 /* ExpectaComparisonTests */,
+				77694E12194CD22500E79198 /* Frameworks */,
+				77694E11194CD22500E79198 /* Products */,
+				B0082F7B91CF46608EE22EDE /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		77694E11194CD22500E79198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77694E10194CD22500E79198 /* ExpectaComparisonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77694E12194CD22500E79198 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77694E13194CD22500E79198 /* XCTest.framework */,
+				BFD5C0FB4E9848A18D56028D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77694E15194CD22500E79198 /* ExpectaComparisonTests */ = {
+			isa = PBXGroup;
+			children = (
+				776F0FEF194CE81800B774E5 /* ExpectaComparisonTestCase.h */,
+				776F0FED194CE80400B774E5 /* ExpectaComparisonTestCase.m */,
+				776F0FEB194CE16500B774E5 /* ExpectaDictionaryComparisonTests.m */,
+				77694E16194CD22500E79198 /* Supporting Files */,
+			);
+			path = ExpectaComparisonTests;
+			sourceTree = "<group>";
+		};
+		77694E16194CD22500E79198 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77694E17194CD22500E79198 /* ExpectaComparisonTests-Info.plist */,
+				77694E18194CD22600E79198 /* InfoPlist.strings */,
+				77694E1D194CD22600E79198 /* ExpectaComparisonTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77694E0F194CD22500E79198 /* ExpectaComparisonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77694E1E194CD22600E79198 /* Build configuration list for PBXNativeTarget "ExpectaComparisonTests" */;
+			buildPhases = (
+				6214FD7CA8174A87BF9C5BC0 /* Check Pods Manifest.lock */,
+				77694E0C194CD22500E79198 /* Sources */,
+				77694E0D194CD22500E79198 /* Frameworks */,
+				77694E0E194CD22500E79198 /* Resources */,
+				90374C5FACC94D14A6F555FC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExpectaComparisonTests;
+			productName = ExpectaComparisonTests;
+			productReference = 77694E10194CD22500E79198 /* ExpectaComparisonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77694E06194CD10800E79198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 77694E09194CD10800E79198 /* Build configuration list for PBXProject "ExpectaComparisonTests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 77694E05194CD10800E79198;
+			productRefGroup = 77694E11194CD22500E79198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77694E0F194CD22500E79198 /* ExpectaComparisonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77694E0E194CD22500E79198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77694E1A194CD22600E79198 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6214FD7CA8174A87BF9C5BC0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90374C5FACC94D14A6F555FC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77694E0C194CD22500E79198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776F0FEC194CE16500B774E5 /* ExpectaDictionaryComparisonTests.m in Sources */,
+				776F0FEE194CE80400B774E5 /* ExpectaComparisonTestCase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77694E18194CD22600E79198 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77694E19194CD22600E79198 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77694E0A194CD10800E79198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		77694E0B194CD10800E79198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		77694E1F194CD22600E79198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0082F7B91CF46608EE22EDE /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExpectaComparisonTests/ExpectaComparisonTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "ExpectaComparisonTests/ExpectaComparisonTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		77694E20194CD22600E79198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0082F7B91CF46608EE22EDE /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExpectaComparisonTests/ExpectaComparisonTests-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "ExpectaComparisonTests/ExpectaComparisonTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77694E09194CD10800E79198 /* Build configuration list for PBXProject "ExpectaComparisonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77694E0A194CD10800E79198 /* Debug */,
+				77694E0B194CD10800E79198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77694E1E194CD22600E79198 /* Build configuration list for PBXNativeTarget "ExpectaComparisonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77694E1F194CD22600E79198 /* Debug */,
+				77694E20194CD22600E79198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77694E06194CD10800E79198 /* Project object */;
+}
