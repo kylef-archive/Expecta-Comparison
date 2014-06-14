@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "Expecta+Comparison"
-  spec.version = "0.0.1"
+  spec.version = "0.1.0"
   spec.summary = "The missing comparators for Expecta."
   spec.homepage = "https://github.com/kylef/Expecta-Comparison"
   spec.license = { :type => "BSD", :file => "LICENSE" }
