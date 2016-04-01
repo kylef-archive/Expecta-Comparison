@@ -1,6 +1,8 @@
 Expecta+Comparison
 ==================
 
+:warning: This project is unmaintained. We are still accepting pull requests though. :warning:
+
 The missing comparators for Expecta. Provides expecta matchers to compare
 collections in your tests.
 
